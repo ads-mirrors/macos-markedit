@@ -24,6 +24,7 @@ import {
   showContextMenu,
   showAlert,
   showTextBox,
+  showSavePanel,
 } from './methods';
 
 export function initMarkEditModules() {
@@ -60,6 +61,7 @@ export function initMarkEditModules() {
   MarkEdit.showContextMenu = showContextMenu;
   MarkEdit.showAlert = showAlert;
   MarkEdit.showTextBox = showTextBox;
+  MarkEdit.showSavePanel = showSavePanel;
 
   const modules = {
     'markedit-api': { MarkEdit },
